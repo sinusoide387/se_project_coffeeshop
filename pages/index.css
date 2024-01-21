@@ -45,9 +45,12 @@
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
+
+  margin: 183px 0 0;
 }
 .header__description {
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 28px;
 }
