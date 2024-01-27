@@ -143,13 +143,13 @@
   line-height: 30px;
 }
 
-.block-reservation {
+.reservation {
   background-color: #d9e7ff;
   background-image: url("/images/background_reservation.svg");
   background-size: cover;
 }
 
-.block-reservation__title {
+.reservation__title {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
