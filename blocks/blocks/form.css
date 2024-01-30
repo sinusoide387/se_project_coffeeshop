@@ -36,6 +36,9 @@
   border-radius: 4px;
 }
 
+.form__button:hover {
+  animation: button 1s forwards;
+}
 .form__fieldset {
   margin: 0px;
   padding: 0px;
