@@ -226,8 +226,22 @@
   text-decoration-line: none;
 }
 
+.social__link-facebook:hover {
+  animation: social 5s ease-in-out normal;
+}
+
 .social__link-instagram {
   color: inherit;
   text-decoration: none;
   text-decoration-line: none;
+}
+
+.social__link-instagram:hover {
+  animation: social 5s ease-in-out normal;
+}
+
+.footer__copyright {
+  color: #fff;
+  padding: 0px;
+  margin: 108px 0px 0px;
 }

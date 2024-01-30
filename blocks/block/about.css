@@ -11,3 +11,18 @@
     opacity: 0;
   }
 }
+
+@keyframes social {
+  0% {
+    color: black;
+  }
+  30% {
+    color: rgb(36, 34, 34);
+  }
+  60% {
+    color: rgb(120, 117, 117);
+  }
+  100% {
+    color: #c1c1c1;
+  }
+}
