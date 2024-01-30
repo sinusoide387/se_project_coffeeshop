@@ -36,6 +36,15 @@
   }
 }
 
+@keyframes links {
+  from {
+    color: black;
+  }
+  to {
+    color: #2f80ed;
+  }
+}
+
 .about {
   background-color: #0a2850;
 }

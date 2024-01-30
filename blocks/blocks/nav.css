@@ -27,3 +27,7 @@
   text-decoration: none;
   text-align: end;
 }
+
+.nav__link:hover {
+  animation: links 2s ease-in-out forwards;
+}
