@@ -1,0 +1,93 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes social {
+  0% {
+    color: black;
+  }
+  30% {
+    color: rgb(36, 34, 34);
+  }
+  60% {
+    color: rgb(120, 117, 117);
+  }
+  100% {
+    color: #c1c1c1;
+  }
+}
+
+.about {
+  background-color: #0a2850;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  max-width: 251px;
+  margin: 0;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.about__content {
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  max-width: 660px;
+  margin: 19px 0 20px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.about {
+  padding: 100px 80px 173px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__circle {
+  height: 426px;
+  width: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  height: 426px;
+  width: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  animation: pulsate 1.3s ease-in-out infinite;
+}
