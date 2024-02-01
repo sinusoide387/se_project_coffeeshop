@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
+  position: relative;
 }
 
 .header__title {
@@ -37,6 +38,7 @@
   margin: 28px 0 0;
 }
 .header__image {
+  z-index: -1;
   width: 646px;
   height: 568px;
   position: absolute;

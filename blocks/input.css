@@ -1,12 +1,7 @@
-input[type="checkbox"] {
+#checkbox {
   width: 20px;
   height: 20px;
 }
-
-input[type="placeholder"] {
+.input {
   color: #838383;
-}
-
-input[type="datetime-local"] {
-  color: #6f6f6f;
 }

@@ -30,9 +30,10 @@
   color: #ffffff;
   padding: 0px;
   height: 60px;
-  margin: 32px 0 32px;
+  margin-top: 0;
+  margin-bottom: 32px;
   box-sizing: border-box;
-  border: none;
+  border: 1px solid #838383;
   border-radius: 4px;
 }
 
@@ -45,15 +46,21 @@
   border: none;
 }
 
-.form__label_type_checkbox {
-  font-family: Inter;
+.form__checkbox {
+  /*i add the styles here, but its not part of the video i did it because of the correction on line 57*/
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.form__label_type_checkbox {
+  /* i did what was specify in the video, the modifier is for the display flex and center the checkbox*/
   display: flex;
   justify-content: center;
   gap: 12px;
   padding-bottom: 120px;
   border-radius: 2px;
+  margin-bottom: 0px;
 }
