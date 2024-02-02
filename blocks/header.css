@@ -9,22 +9,25 @@
   flex-direction: column;
   z-index: 1;
   position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 729px;
-  font-family: "Inter";
+  font-family: "Inter" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
   margin-top: 183px;
+
+  margin-bottom: 0px;
 }
 
 .header__span-accent {
   color: #2f80ed;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -32,6 +35,9 @@
   color: #2f80ed;
 }
 .header__description {
+  font-family: "Noto Serif" Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
@@ -50,10 +56,11 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  align-items: end;
 }
 
 .header__paragraph {
-  font-family: "Inter";
+  font-family: "Inter" Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

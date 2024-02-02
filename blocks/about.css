@@ -63,6 +63,7 @@
 }
 
 .about__content {
+  margin-top: 19px;
   list-style-type: none;
   margin-left: auto;
 }
@@ -76,7 +77,7 @@
   color: #ffffff;
   max-width: 660px;
   margin-top: 0px;
-  margin: 19px 0 20px;
+  margin-bottom: 20px;
 }
 
 .about__paragraph:last-of-type {
