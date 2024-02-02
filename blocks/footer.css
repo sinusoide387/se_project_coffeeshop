@@ -13,11 +13,6 @@
   flex-direction: column;
 }
 
-.footer__list-item {
-  display: flex;
-  gap: 10px;
-}
-
 .footer__logo {
   width: 105px;
   height: 39px;
@@ -25,7 +20,7 @@
 
 .footer__social-heading {
   color: #fff;
-  font-family: "Inter" Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -34,12 +29,24 @@
   margin: 0px 0px 20px;
 }
 
+.footer__list {
+  font-family: "Inter", Arial, Helvetica, sans-serif; /*I assume this are the styles for the brief,i couldnt find others*/
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0px;
+  padding-left: 0px;
+}
+
 .footer__list-item {
   list-style-type: none;
   display: flex;
   gap: 10px;
   padding: 0px;
   margin: 0px;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__list-item:first-of-type {
